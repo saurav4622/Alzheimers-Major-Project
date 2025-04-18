@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #000000 40%, #002147);
+    color: white;
+    margin: 0;
+    padding: 100;
+  }
+  table {
+    width: 100%;
+    height: 100vh;
+  }
+  td {
+    vertical-align: top;
+    padding: 40px;
+  }
+  .left {
+    width: 40%;
+    text-align: center;
+  }
+  .left img {
+    width: 250px;
+    margin-top: 60px;
+  }
+  .right {
+    width: 60%;
+    background-color: #002147;
+    padding: 40px;
+    border-radius: 10px;
+  }
+  .section {
+    margin-bottom: 30px;
+  }
+  .section h3 {
+    color: #f5c518;
+  }
+  .steps {
+    margin-top: 10px;
+  }
+  .steps li {
+    margin: 8px 0;
+  }
