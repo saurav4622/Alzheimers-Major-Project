@@ -1,5 +1,8 @@
 import React from 'react';
+import brainImage2 from '../../assets/brain-2.png';
+import brainImage3 from '../../assets/brain-3.png';
 import './dashboard.css';
+
 const Dashboard = () => {
   return (
     <div>
@@ -49,7 +52,7 @@ const Dashboard = () => {
             <td className="right-sidebar">
               <div>
                 <img
-                  src="brain 2.jpg"
+                  src= {brainImage2}
                   alt="User"
                   style={{ width: '50px', borderRadius: '50%' }}
                 />
@@ -65,7 +68,7 @@ const Dashboard = () => {
               </div>
               <br />
               <div>
-                <img src="brain 3.jpg" alt="Illustration" style={{ width: '100%' }} />
+                <img src= {brainImage3} alt="Illustration" style={{ width: '100%' }} />
               </div>
             </td>
           </tr>
